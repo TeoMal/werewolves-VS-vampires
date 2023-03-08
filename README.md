@@ -1,5 +1,5 @@
 # Werewolves vs Vampires
-Werewolves vs Vampires is simple game where a group of werewolves fight a group of vampires. The player takes the role of the Avatar who supports one of the two teams (by default Vampires) by using potions that boost the team's stats (both health and damage). The team that is crowned the victor is the team that manages to defeat all the players of the enemy team.
+Werewolves vs Vampires is a simple game where a group of werewolves fights a group of vampires. The player takes the role of the Avatar who supports one of the two teams (by default Vampires) by using potions that boost the team's stats (both health and damage). The team that is crowned the victor is the team that manages to defeat all the players of the enemy team.
 
 # **How to play**
 * Press **p** to pause the game.
