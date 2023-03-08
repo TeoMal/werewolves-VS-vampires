@@ -24,14 +24,16 @@ time_types;
 
 struct point
 {
-    int x;
-    int y;
-    point operator+(point a)
-    {
-        point temp;
-        temp.x = a.x + x;
-        temp.y = a.y + y;
-        return temp;
+    int x, y;
+    
+    point() : x(0), y(0) {}
+    point(int x, int y) : x(x), y(y) {}
+    point operator+(const point& other) const {
+        return point(x + other.x, y + other.y);
+    }
+    
+    point operator-(const point& other) const {
+        return point(x - other.x, y - other.y);
     }
 };
 
